@@ -1,0 +1,34 @@
+{
+  "name": "schedular",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "Jason and Leon",
+  "license": "GPL-3.0",
+  "scripts": {
+    "compile": "./../../node_modules/.bin/babel --plugins transform-class-properties,transform-object-rest-spread src --out-dir public"
+  },
+  "dependencies": {
+    "CastIron": "git+ssh://git@github.com/elevenbuckets/CastIron.git",
+    "accMgr": "git+ssh://git@github.com/elevenbuckets/accmgr.git",
+    "babel-cli": "6.24.1",
+    "babel-core": "6.25.0",
+    "babel-loader": "7.1.1",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1",
+    "css-loader": "0.28.4",
+    "json-loader": "^0.5.7",
+    "live-server": "^1.2.0",
+    "node-loader": "^0.6.0",
+    "react": "15.6.1",
+    "react-dom": "15.6.1",
+    "react-dropdown": "^1.4.0",
+    "react-modal": "^3.4.4",
+    "react-router-dom": "^4.2.2",
+    "react-toggle": "^4.0.2",
+    "reflux": "^6.4.1",
+    "style-loader": "0.18.2",
+    "uuid": "^3.2.1"
+  }
+}

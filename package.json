@@ -1,20 +1,31 @@
 {
   "name": "schedular",
   "version": "1.0.0",
-  "main": "main.js",
   "author": "Jason and Leon",
   "license": "GPL-3.0",
   "scripts": {
     "compile": "./../../node_modules/.bin/babel src --out-dir public"
   },
-
   "babel": {
-    "plugins": ["transform-class-properties", "transform-object-rest-spread", "dynamic-import-node"],
-    "presets": [ "react", [ "env", { "targets": { "node": "8.6" } } ] ]
+    "plugins": [
+      "transform-class-properties",
+      "transform-object-rest-spread",
+      "dynamic-import-node"
+    ],
+    "presets": [
+      "react",
+      [
+        "env",
+        {
+          "targets": {
+            "node": "8.6"
+          }
+        }
+      ]
+    ]
   },
   "dependencies": {
     "CastIron": "git+ssh://git@github.com/elevenbuckets/CastIron.git",
-    "accMgr": "git+ssh://git@github.com/elevenbuckets/accmgr.git",
     "babel-cli": "6.24.1",
     "babel-core": "6.25.0",
     "babel-loader": "7.1.1",

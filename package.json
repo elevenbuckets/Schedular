@@ -5,7 +5,12 @@
   "author": "Jason and Leon",
   "license": "GPL-3.0",
   "scripts": {
-    "compile": "./../../node_modules/.bin/babel --plugins transform-class-properties,transform-object-rest-spread src --out-dir public"
+    "compile": "./../../node_modules/.bin/babel src --out-dir public"
+  },
+
+  "babel": {
+    "plugins": ["transform-class-properties", "transform-object-rest-spread", "dynamic-import-node"],
+    "presets": [ "react", [ "env", { "targets": { "node": "8.6" } } ] ]
   },
   "dependencies": {
     "CastIron": "git+ssh://git@github.com/elevenbuckets/CastIron.git",

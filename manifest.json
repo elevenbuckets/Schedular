@@ -1,0 +1,7 @@
+{
+    "appName" : "Schedular",
+    "version" : "1.0.0",
+    "ctrList" : [],
+    "activeNetID" :"1100",
+    "appView" : "ScheulerView"
+}

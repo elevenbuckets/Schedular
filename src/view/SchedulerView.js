@@ -10,7 +10,6 @@ import { createCanvasWithAddress, setDappLocalState } from "../../../../public/u
 import SchedulerJob from '../components/SchedulerJob';
 import EditScheduleTXModal from '../../../../public/components/EditScheduleTXModal';
 import Scheduler from '../../../../public/util/Scheduler'
-import dappViewService from "../../../../src/service/DappViewService";
 
 class SchedulerView extends Reflux.Component {
     constructor(props) {
